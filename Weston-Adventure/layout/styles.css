@@ -1,0 +1,39 @@
+.nav-bar {
+    
+    display: block;
+}
+
+.horizontal-layout {
+    display: inline-block;
+}
+
+.nav-bar-logo {
+    float: left;
+    width: 15%
+}
+
+.nav-bar-list {
+    font-weight: bold;
+    text-align: center;
+}
+
+.list-div {
+    width: 70%;
+    
+}
+
+.nav-list-item {
+    padding-left: 15px;
+    padding-right: 15px;
+    vertical-align: top;
+}
+
+.nav-bar-options {
+    float: right;
+    width: 15%;
+}
+
+.icon-common{
+    float: right;
+    padding:10px
+}
