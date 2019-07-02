@@ -3,11 +3,31 @@
 }
 
 #tag {
-    padding-left: 60px;
+    /* padding-left: 6px; */
     width: 30%;
+    margin: 120px;
+    margin-top: 150px;
 }
 
 .heading-margins {
-    margin-top: 0px;
     margin-bottom: 20px;
+}
+
+.sub-heading {
+    color: orange;
+}
+
+#book-now-btn {
+    margin-top: 40px;
+    border-radius: 5px;
+    background-color: orange;
+}
+
+#book-now-btn * {
+    vertical-align: middle;
+}
+
+.icon-btn {
+    margin: 7px;
+    margin-right: 10px;
 }
