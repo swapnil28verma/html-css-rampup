@@ -1,3 +1,11 @@
 .main-app-style {
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+.background-main {
+    background-image: url(../assets/background.png);
+    height: 700px;
+    width: 100%;
 }

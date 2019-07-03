@@ -7,6 +7,15 @@
     width: 30%;
     margin: 120px;
     margin-top: 150px;
+    margin-bottom: 200px;
+}
+
+#tag h1 {
+    color: white;
+}
+
+#tag p {
+    color: white;
 }
 
 .heading-margins {
@@ -25,6 +34,7 @@
 
 #book-now-btn * {
     vertical-align: middle;
+    color: white;
 }
 
 .icon-btn {

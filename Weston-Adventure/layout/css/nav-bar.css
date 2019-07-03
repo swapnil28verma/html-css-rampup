@@ -1,5 +1,8 @@
 #nav-bar {
     display: block;
+    padding-top: 30px;
+    margin-left: 120px;
+    margin-right: 120px;
 }
 
 .horizontal-layout {
@@ -24,6 +27,7 @@
     padding-left: 15px;
     padding-right: 15px;
     vertical-align: top;
+    color: white;
 }
 
 .nav-bar-options {
