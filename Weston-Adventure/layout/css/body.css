@@ -41,3 +41,21 @@
     margin: 7px;
     margin-right: 10px;
 }
+
+#content {
+
+}
+
+.center-content {
+    text-align: center;
+}
+
+.center-div {
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+#activities-section {
+    
+}
