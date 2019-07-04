@@ -43,7 +43,7 @@
 }
 
 #content {
-
+    width: 40%;
 }
 
 .center-content {
@@ -53,9 +53,47 @@
 .center-div {
     margin-left: auto;
     margin-right: auto;
-    width: 40%;
 }
 
-#activities-section {
-    
+#activity-section {
+    width: 80%;
+}
+
+.activity-item {
+    margin: 150px 15px; 
+    display: inline-block;
+    width: 30%;
+    height: 450px;
+}
+
+#rafting {
+    background: url(../assets/rafting.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+#hiking {
+    background: url(../assets/hiking.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+#camping {
+    background: url(../assets/camping.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.activity-icon {
+    width: 40px;
+    height: 40px;
+    text-align: left;
+}
+
+.activity-item-content {
+    width: 60%;
+    height: 450px;
+    vertical-align: middle;
+    margin: auto;
+    color: white;
 }
