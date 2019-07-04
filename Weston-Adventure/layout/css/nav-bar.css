@@ -5,10 +5,6 @@
     margin-right: 120px;
 }
 
-.horizontal-layout {
-    display: inline-block;
-}
-
 .nav-bar-logo {
     float: left;
     width: 15%
@@ -16,7 +12,6 @@
 
 .nav-bar-list {
     font-weight: bold;
-    text-align: center;
 }
 
 .list-div {
@@ -24,8 +19,6 @@
 }
 
 .nav-list-item {
-    padding-left: 15px;
-    padding-right: 15px;
     vertical-align: top;
     color: white;
 }
