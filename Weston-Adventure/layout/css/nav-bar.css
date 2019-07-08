@@ -1,16 +1,25 @@
-#nav-bar {
+#nav-bar-normal {
     display: block;
     padding-top: 30px;
     margin-left: 120px;
     margin-right: 120px;
 }
 
-.nav-bar-logo {
+#nav-bar-small {
+    display: none;
+}
+
+.nav-bar-logo-normal {
     float: left;
     width: 15%
 }
 
+.nav-bar-logo-small {
+    width: 15%;
+}
+
 .nav-bar-list {
+    display: flex;
     font-weight: bold;
 }
 
@@ -19,6 +28,7 @@
 }
 
 .nav-list-item {
+    list-style-type: none;
     vertical-align: top;
     color: white;
 }
@@ -33,3 +43,27 @@
     padding:10px
 }
 
+.display-inline {
+    display: inline-block;
+}
+
+@media only screen and (max-width: 600px) {
+    .nav-bar-list {
+        font-weight: bold;
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+    }
+
+    #nav-bar-small {
+        display: inline-block;
+    }
+
+    #nav-bar-normal {
+        display: none;
+    }
+
+    .nav-bar-logo {
+        float: none;
+    }
+}
