@@ -39,7 +39,7 @@
 }
 
 .icon-common{
-    float: right;
+    /* float: right; */
     padding:10px
 }
 
@@ -56,7 +56,8 @@
     }
 
     #nav-bar-small {
-        display: inline-block;
+        display: block;
+        width: 100%;
     }
 
     #nav-bar-normal {
