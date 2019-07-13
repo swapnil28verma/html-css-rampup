@@ -68,3 +68,14 @@
         float: none;
     }
 }
+
+#nav-bar-items {
+    width: 50%;
+    height: 50%;
+    background: black;
+}
+
+.small-list-item {
+    border-width: 50px;
+    border-color: white;
+}
