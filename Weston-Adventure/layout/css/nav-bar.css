@@ -9,6 +9,14 @@
     display: none;
 }
 
+#nav-bar-items {
+    visibility: hidden;
+    width: 50%;
+    height: 50%;
+    background: rgb(0, 0, 0, 0.5) ;
+    font-weight: bold;
+}
+
 .nav-bar-logo-normal {
     float: left;
     width: 15%
@@ -67,15 +75,21 @@
     .nav-bar-logo {
         float: none;
     }
+
+    #nav-bar-items {
+        display: 
+    }
 }
 
-#nav-bar-items {
-    width: 50%;
-    height: 50%;
-    background: black;
+
+
+#nav-bar-items ul {
+    padding: 0; 
 }
 
-.small-list-item {
-    border-width: 50px;
+.small-list-item{
+    border-style: solid;
+    border-width: 2px;
     border-color: white;
+    padding: 20px;
 }
