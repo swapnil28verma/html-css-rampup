@@ -10,7 +10,7 @@
 }
 
 #nav-bar-items {
-    visibility: hidden;
+    display: none;
     width: 50%;
     height: 50%;
     background: rgb(0, 0, 0, 0.5) ;
@@ -77,7 +77,7 @@
     }
 
     #nav-bar-items {
-        display: 
+        display: block;
     }
 }
 
