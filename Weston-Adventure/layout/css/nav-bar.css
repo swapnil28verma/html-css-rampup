@@ -78,6 +78,7 @@
 
     #nav-bar-items {
         display: block;
+        position: absolute;
     }
 }
 
