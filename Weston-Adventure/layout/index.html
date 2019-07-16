@@ -4,6 +4,33 @@
     <link rel="stylesheet" href="css/main.css"> 
     <link rel="stylesheet" href="css/nav-bar.css">
     <link rel="stylesheet" href="css/body.css">
+
+    <script>
+            /* When the user clicks on the button, 
+            toggle between hiding and showing the dropdown content */
+            function menuClickHandler() {
+                var myDropdown = document.getElementById("nav-bar-items");
+                if (myDropdown.classList.contains('show')) {
+                  myDropdown.classList.add('hide');
+                  myDropdown.classList.remove('show');
+                } else if(myDropdown.classList.contains('hide')){
+                  myDropdown.classList.add('show');
+                  myDropdown.classList.remove('hide');
+                }
+            }
+            
+            // Close the dropdown if the user clicks outside of it
+            window.onclick = function(e) {
+              var myDropdown = document.getElementById("nav-bar-items");
+              if(!e.target.matches('#menu-icon')) {
+                    if (myDropdown.classList.contains('show')) {
+                    myDropdown.classList.add('hide');
+                    myDropdown.classList.remove('show');
+                    }
+                }
+            }
+    </script>
+
 </head>
 <body class="main-app-style">
 
@@ -36,21 +63,10 @@
         </div>
 
         <div id="nav-bar-small">
-            <!-- Nav Bar list -->
-            <!-- <div class="display-inline">
-                <ul class="nav-bar-list">
-                    <li class="nav-list-item">Home</li>
-                    <li class="nav-list-item">Pages</li>
-                    <li class="nav-list-item">Portfolio</li>
-                    <li class="nav-list-item">Blog</li>
-                    <li class="nav-list-item">Shop</li> 
-                    <li class="nav-list-item">Features</li>
-                </ul>
-            </div> -->
 
             <!-- NavBar Logo -->
             <div class="horizontal-layout">
-                <img src="assets/ham-menu-inv.png" class="icon-common" width="15px" height="15px">
+                <img src="assets/ham-menu-inv.png" class="icon-common" id='menu-icon' width="15px" height="15px" onclick="menuClickHandler()">
             </div>
                
 
@@ -68,7 +84,7 @@
     
         </div>
 
-        <div id="nav-bar-items">
+        <div id="nav-bar-items" class="hide">
             <ul>
                 <li class="nav-list-item small-list-item">Home</li>
                 <li class="nav-list-item small-list-item">Pages</li>
