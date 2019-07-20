@@ -114,7 +114,12 @@
 #details-section {
     width: 100%;
     margin: 20px auto;
+}
 
+#details-section ul {
+    margin: 10px auto;
+    width: 100%;
+    padding: 0;
 }
 
 @media only screen and (max-width: 600px) {
@@ -142,7 +147,7 @@
     }
 
     #details-section {
-        width: 40%;
+        width: 30%;
         margin-left: auto;
         margin-right: auto;
     }
