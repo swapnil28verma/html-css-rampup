@@ -109,11 +109,14 @@
 .details-section-list-item {
     font-size: 0.75em;
     text-align: left;
+    padding: 10px;
+    display: inline-block;
 }
 
 #details-section {
-    width: 100%;
+    width: 50%;
     margin: 20px auto;
+    text-align: center;
 }
 
 #details-section ul {
@@ -150,5 +153,9 @@
         width: 30%;
         margin-left: auto;
         margin-right: auto;
+    }
+
+    .details-section-list-item {
+        display: inline;
     }
 }
