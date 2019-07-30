@@ -1,0 +1,27 @@
+#vishion {
+    background-color: #eceef1;
+}
+
+
+#vishion-header {
+    width: 143px;
+    height: 32px;
+    color: #1f1f1f;
+}
+
+#karavan {
+    width: 800px;
+    height: 451px;
+    background-color: #1a71f9;
+    color: white;
+}
+
+#karavan-header {
+    width: 161px;
+    height: 30px;
+    color: white;
+}
+
+#karavan-image {
+    background: url(../assets/group-1.svg);
+}
