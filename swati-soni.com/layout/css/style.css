@@ -3,6 +3,7 @@
     height: 451px;
     position: relative;
     margin: 29px;
+    overflow: hidden;
 }
 
 .content {
@@ -23,6 +24,7 @@
     display: flex;
     align-content: center;
     justify-content: center;
+    text-decoration: none;
 }
 
 .case-study-description-container {
@@ -82,7 +84,8 @@
     object-fit: contain;
 }
 
-.case-study-image-common {
+.image-right-align {
     position: absolute;
-    padding-top: 10px
+    padding-top: 10px;
+    text-align: right;
 }
