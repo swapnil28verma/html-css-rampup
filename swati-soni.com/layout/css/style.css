@@ -29,9 +29,9 @@
 
 .case-study-description-container {
     position: absolute;
-    top: 190px;
-    left: 50px;
-    bottom: 100px
+    top: 255px;
+    left: 60px;
+    bottom: 220px
 }
 
 .case-study-common {
@@ -75,12 +75,15 @@
     line-height: 0.65;
     letter-spacing: normal;
     text-align: left;
+
+    position: absolute;
+    top:190px;
+    left: 50px;
+    bottom: 100px;
 }
 
 .image-common {
     float: right;
-    width: 480px;
-    height: 450px;
     object-fit: contain;
 }
 
@@ -88,4 +91,15 @@
     position: absolute;
     padding-top: 10px;
     text-align: right;
+}
+
+.mad-logo {
+    width: 306px;
+    height: 39px;
+    object-fit: contain;
+
+    position: absolute;
+    top: 193px;
+    left: 60px;
+    bottom: 219px;
 }
