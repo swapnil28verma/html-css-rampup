@@ -10,8 +10,6 @@
 }
 
 #karavan {
-    width: 800px;
-    height: 451px;
     background-color: #1a71f9;
     color: white;
 }
@@ -36,4 +34,9 @@
 
 #awards {
     background-color: #ffbe0e;
+}
+
+#app-inventive {
+    background-color: #012396;
+    color: white;
 }
