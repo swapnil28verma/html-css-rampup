@@ -15,12 +15,16 @@
     display: inline-block;
 }
 
-.Rectangle-2 {
+.category-header {
     position: absolute;
     top: 130px;
     left: 50px;
     width: 236px;
     height: 35px;
+}
+
+.btn-common {
+    
     object-fit: contain;
     border-radius: 17.3px;
     box-shadow: 0px 7px 8.3px 0.7px rgba(198, 207, 220, 0.34);
@@ -43,7 +47,7 @@
     font-weight: bold;
 }
 
-.category-header {
+.category-header-text {
     margin: auto;
 
     width: 199px;
@@ -118,3 +122,63 @@
     bottom: 0px;
     right: 0px;
 }
+
+.ui-deck {
+    background: url(../assets/ui-deck-bg.png);
+    width: 800px;
+    height: 250px;
+    object-fit: contain;
+    margin: 6px auto 108px auto;
+    position: relative;
+}
+
+.ui-sample-header {
+    width: 530px;
+    height: 30px;
+    font-family: Muli;
+    font-size: 30px;
+    font-weight: 800;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 0.87;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+
+    position: absolute;
+    top: 63px;
+    left: 135px;
+    right: 135px;
+    bottom: 158px;
+    margin: 0px;
+  }
+
+.ui-sample-text {
+    width: 526px;
+    height: 16px;
+    font-family: Muli;
+    font-size: 16px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.25;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+
+    position: absolute;
+    top: 108px;
+    left: 137px;
+    bottom: 126px;
+    right: 137px;
+    margin: 0px;
+  }
+
+  .ui-deck-download-btn {
+      position: absolute;
+      top: 152px;
+      left: 305px;
+      bottom: 63px;
+      right: 305px;
+    
+  }
