@@ -151,7 +151,7 @@
     right: 135px;
     bottom: 158px;
     margin: 0px;
-  }
+}
 
 .ui-sample-text {
     width: 526px;
@@ -172,13 +172,63 @@
     bottom: 126px;
     right: 137px;
     margin: 0px;
-  }
+}
 
-  .ui-deck-download-btn {
+.ui-deck-download-btn {
       position: absolute;
       top: 152px;
       left: 305px;
       bottom: 63px;
       right: 305px;
     
-  }
+}
+
+.footer {
+    width: 760px;
+    height: 105px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.footer-text {
+    width: 296px;
+    height: 45px;
+    font-family: Muli;
+    font-size: 17.5px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.54;
+    letter-spacing: normal;
+    text-align: left;
+    color: black;
+
+
+}
+
+.contact {
+    width: 155px;
+    height: 26px;
+    border-radius: 5px;
+    background-color: lightpink;
+    color: #dd1393;
+
+    margin: 0
+}
+
+.copyright{
+    width: 295px;
+    height: 31px;
+    font-family: Muli;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.14;
+    letter-spacing: 0.35px;
+    text-align: left;
+    color: black;
+
+    top: 75px;
+    position: absolute
+}
