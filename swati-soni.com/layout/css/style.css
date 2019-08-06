@@ -1,7 +1,8 @@
 .hero {
     width: 580px;
     height: 375px;
-    margin: 0 auto
+    margin: 0 auto;
+    position: relative;
 }
 
 .case-study-container {
@@ -193,7 +194,7 @@
     width: 760px;
     height: 105px;
     position: relative;
-    margin: 0 auto;
+    margin: 0 auto 62px auto;
 }
 
 .footer-text {
@@ -247,7 +248,7 @@
 
 .profile-intro {
     width: 557px;
-    height: 71px;
+    height: 80px;
     background-image: linear-gradient(to right, #001f94, #dd1393), linear-gradient(to bottom, black, black);
     font-family: Muli;
     font-size: 30px;
@@ -261,6 +262,8 @@
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
+
+    margin-top: 15px;
 }
 
 .profile-description {
@@ -275,4 +278,31 @@
     letter-spacing: normal;
     text-align: left;
     color: black;
+
+    margin-top: 26px;
+}
+
+.highlight-social-media {
+    border-radius: 5px;
+    background-color: #e9eaf3;
+    color: #001f94;
+}
+
+.highlight-resume {
+    border-radius: 5px;
+    background-color: #ffd5ea;
+    color: #dd1393;
+    font-weight: bold;
+}
+
+.social-media-intro-container {
+    margin-top: 40px;
+}
+
+.social-media-icon {
+    margin-right: 24px;
+}
+
+.social-media-footer-container {
+    text-align: right;
 }
