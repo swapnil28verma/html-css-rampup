@@ -1,6 +1,6 @@
 .hero {
     width: 580px;
-    height: 375px;
+    /* height: 375px; */
     margin: 0 auto;
     position: relative;
 }
@@ -305,4 +305,26 @@
 
 .social-media-footer-container {
     text-align: right;
+}
+
+.case-study-showcase {
+    margin-top: 80px;
+    position: relative;
+}
+
+.show-work-text {
+    width: 305px;
+    font-family: Muli;
+    font-size: 13px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2;
+    letter-spacing: 2.6px;
+    text-align: left;
+    color: #808080;
+
+    margin-left: 20px;
+    vertical-align: middle;
+    display: inline-block;
 }
