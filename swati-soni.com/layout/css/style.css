@@ -224,7 +224,6 @@
 }
 
 .copyright{
-    width: 295px;
     height: 31px;
     font-family: Muli;
     font-size: 14px;
@@ -237,7 +236,7 @@
     color: black;
 
     top: 75px;
-    position: absolute
+    display: inline-block;
 }
 
 .profile-headshot {
@@ -305,6 +304,8 @@
 
 .social-media-footer-container {
     text-align: right;
+    display: inline-block;
+    vertical-align: bottom;
 }
 
 .case-study-showcase {
