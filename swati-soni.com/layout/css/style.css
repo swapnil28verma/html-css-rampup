@@ -210,7 +210,7 @@
     text-align: left;
     color: black;
 
-
+    padding-bottom: 30px;
 }
 
 .contact {
@@ -305,6 +305,7 @@
 .social-media-footer-container {
     text-align: right;
     display: inline-block;
+    float: right;
     vertical-align: bottom;
 }
 
