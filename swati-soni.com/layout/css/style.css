@@ -330,3 +330,18 @@
     vertical-align: middle;
     display: inline-block;
 }
+
+.navbar {
+    list-style-type: none;
+    width: 1150px;
+    margin: auto;
+}
+
+.navbar li {
+    display: inline; 
+}
+
+.navbar-logo {
+    margin: 0 auto;
+
+}
