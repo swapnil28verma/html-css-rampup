@@ -332,6 +332,7 @@
 }
 
 .navbar {
+    display: flex;
     list-style-type: none;
     width: 1150px;
     margin: auto;
@@ -342,6 +343,17 @@
 }
 
 .navbar-logo {
-    margin: 0 auto;
+    flex-grow: 100;
+    position: relative;
+    text-align: center;
+}
 
+.navbar-left-content {
+    display: inline-block;
+    text-align: left;
+}
+
+.navbar-right-content { 
+    display: inline-block;
+    text-align: right;
 }
