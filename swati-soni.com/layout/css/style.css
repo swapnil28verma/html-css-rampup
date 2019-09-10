@@ -357,3 +357,40 @@
     display: inline-block;
     text-align: right;
 }
+
+
+
+
+.banner {
+    width: 585px;
+    height: 292px;
+    object-fit: contain;
+    margin-top: 0px;
+    margin-bottom: 40px;
+}
+
+.banner-title {
+    width: 602px;
+    height: 64px;
+    font-family: Muli;
+    font-size: 29px;
+    font-weight: 800;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.41;
+    letter-spacing: normal;
+    text-align: left;
+
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+.about-content {
+    width: 650px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text-bold {
+    font-weight: bold;
+}

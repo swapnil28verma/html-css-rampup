@@ -1,0 +1,16 @@
+.main-app-style {
+    background-color: #e5e5e6;
+    padding: 0px;
+    margin: 0px;
+}
+
+.title-image-overlay {
+    /* background-color: rgba(0,0,0,.5); */
+    width: 100%;
+}
+
+.title-image {
+    width: 100%;
+    opacity: 0.5;
+    background-blend-mode: rgba(0,0,0,1);
+}
