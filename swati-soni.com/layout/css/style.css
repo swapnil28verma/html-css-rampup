@@ -436,7 +436,6 @@
 }
 
 .qualification-sub-title {
-    width: 115px;
     height: 12px;
     font-family: Muli;
     font-size: 14.5px;
@@ -453,7 +452,6 @@
 
 .qualification-details {
     width: 445px;
-    height: 132px;
     font-family: Muli;
     font-size: 14.5px;
     font-weight: normal;
