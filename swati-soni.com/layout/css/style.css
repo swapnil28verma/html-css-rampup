@@ -1,3 +1,7 @@
+* {
+    font-family: Muli;
+}
+
 .hero {
     width: 580px;
     /* height: 375px; */
@@ -59,7 +63,6 @@
 
     width: 199px;
     height: 14px;
-    font-family: ProximaNovaA;
     font-size: 15px;
     font-style: normal;
     font-weight: bold;
@@ -83,7 +86,6 @@
 }
 
 .header-common {
-    font-family: Muli;
     font-size: 40px;
     font-weight: 800;
     font-style: normal;
@@ -142,7 +144,6 @@
 .ui-sample-header {
     width: 530px;
     height: 30px;
-    font-family: Muli;
     font-size: 30px;
     font-weight: 800;
     font-style: normal;
@@ -163,7 +164,6 @@
 .ui-sample-text {
     width: 526px;
     height: 16px;
-    font-family: Muli;
     font-size: 16px;
     font-weight: 600;
     font-style: normal;
@@ -200,7 +200,6 @@
 .footer-text {
     width: 296px;
     height: 45px;
-    font-family: Muli;
     font-size: 17.5px;
     font-weight: 600;
     font-style: normal;
@@ -225,7 +224,6 @@
 
 .copyright{
     height: 31px;
-    font-family: Muli;
     font-size: 14px;
     font-weight: normal;
     font-style: normal;
@@ -268,7 +266,6 @@
 .profile-description {
     width: 580px;
     height: 68px;
-    font-family: Muli;
     font-size: 15px;
     font-weight: normal;
     font-style: normal;
@@ -316,7 +313,6 @@
 
 .show-work-text {
     width: 305px;
-    font-family: Muli;
     font-size: 13px;
     font-weight: 600;
     font-style: normal;
@@ -372,7 +368,6 @@
 .banner-title {
     width: 602px;
     height: 64px;
-    font-family: Muli;
     font-size: 29px;
     font-weight: 800;
     font-style: normal;
@@ -402,7 +397,6 @@
 .category {
     width: 125px;
     height: 24px;
-    font-family: Muli;
     font-size: 24.5px;
     font-weight: 800;
     font-style: normal;
@@ -419,7 +413,6 @@
 .qualification-title {
     width: 319px;
     height: 20px;
-    font-family: Muli;
     font-size: 19.5px;
     font-weight: 800;
     font-style: normal;
@@ -437,7 +430,6 @@
 
 .qualification-sub-title {
     height: 12px;
-    font-family: Muli;
     font-size: 14.5px;
     font-weight: 600;
     font-style: normal;
@@ -452,7 +444,6 @@
 
 .qualification-details {
     width: 445px;
-    font-family: Muli;
     font-size: 14.5px;
     font-weight: normal;
     font-style: normal;
@@ -476,7 +467,7 @@
 
 .social-activity {
     display: inline-block;
-    margin-left: 16px;
+    margin-left: 15px;
     width: 300px;
     height: 166px;
 }
