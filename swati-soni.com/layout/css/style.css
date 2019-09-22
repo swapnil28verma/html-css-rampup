@@ -61,7 +61,7 @@
 .category-header-text {
     margin: auto;
 
-    width: 199px;
+    width: 220px;
     height: 14px;
     font-size: 15px;
     font-style: normal;
@@ -132,6 +132,10 @@
     right: 0px;
 }
 
+.case-study-img {
+    display: block;
+}
+
 .ui-deck {
     background: url(../assets/ui-deck-bg.png);
     width: 800px;
@@ -142,7 +146,7 @@
 }
 
 .ui-sample-header {
-    width: 530px;
+    width: 540px;
     height: 30px;
     font-size: 30px;
     font-weight: 800;
@@ -162,7 +166,7 @@
 }
 
 .ui-sample-text {
-    width: 526px;
+    width: 530px;
     height: 16px;
     font-size: 16px;
     font-weight: 600;
