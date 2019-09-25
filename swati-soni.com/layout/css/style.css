@@ -111,6 +111,16 @@
     text-align: right;
 }
 
+.karavan-bg {
+    position: absolute;
+    right: -60px;
+}
+
+.karavan-img {
+    position: absolute;
+    right: 20px;
+}
+
 .image-center-align {
     text-align: center;
 }
