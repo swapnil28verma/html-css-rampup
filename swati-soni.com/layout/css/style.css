@@ -34,6 +34,10 @@
     height: 35px;
 }
 
+.show-work-icon {
+    vertical-align: middle;
+}
+
 .btn-common {
     
     object-fit: contain;
