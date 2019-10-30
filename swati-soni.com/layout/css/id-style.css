@@ -2,6 +2,9 @@
     background-color: #eceef1;
 }
 
+#vision-category {
+    box-shadow: 0px 7px 8.3px 0.7px rgba(198, 207, 220, 0.34);
+}
 
 #vishion-header {
     width: 143px;
@@ -14,8 +17,11 @@
     color: white;
 }
 
+#karavan-category {
+    box-shadow: 0px 7px 8.3px 0.7px rgba(62, 29, 181, 0.34);
+}
+
 #karavan-header {
-    width: 161px;
     height: 30px;
     color: white;
 }
@@ -24,8 +30,16 @@
     background-color: #dce5f3
 }
 
+#veme-category {
+    box-shadow: 0px 7px 8.3px 0.7px rgba(174, 187, 208, 0.34);
+}
+
 #mobile-app-daily {
     background-color: #262626;
+}
+
+#mad-category {
+    box-shadow: 0px 7px 8.3px 0.7px rgba(0, 0, 0, 0.34);
 }
 
 #mad-description { 
@@ -36,7 +50,16 @@
     background-color: #ffbe0e;
 }
 
+#award-category {
+    box-shadow: 0px 7px 8.3px 0.7px rgba(202, 148, 0, 0.34);
+}
+
 #app-inventive {
     background-color: #012396;
     color: white;
+}
+
+#app-inventive-category {
+    box-shadow: 0px 7px 8.3px 0.7px rgba(0, 19, 84, 0.34);
+
 }
