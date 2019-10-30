@@ -4,8 +4,8 @@
 
 .hero {
     width: 580px;
-    /* height: 375px; */
     margin: 0 auto;
+    padding-top: 160px;
     position: relative;
 }
 
@@ -24,6 +24,15 @@
 
 .content {
     display: inline-block;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    background-color: white;
+    width: 100%;
+    height: 80px;
+    z-index: 1;
 }
 
 .category-header {
@@ -348,12 +357,13 @@
 .navbar {
     display: flex;
     list-style-type: none;
-    width: 1150px;
+    width: 100%;
     margin: 40px auto 115px auto;
 }
 
 .navbar li {
     display: inline; 
+    margin-right: 45px;
 }
 
 .navbar-logo {
